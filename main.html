@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Varieties Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(90deg, #ff4d4d, #ffcc00);
+      padding: 1.5rem;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 2rem;
+      gap: 2rem;
+    }
+
+    .product__photo {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      flex: 1 1 400px;
+      max-width: 450px;
+    }
+
+    .photo-container {
+      text-align: center;
+    }
+
+    .photo-main img {
+      width: 100%;
+      max-height: 280px;
+      border-radius: 10px;
+    }
+
+    .photo-album ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    .photo-album li img {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      border: 2px solid #ddd;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .photo-album li img:hover {
+      transform: scale(1.1);
+      border-color: #ff4d4d;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #e63946;
+      margin: 1rem 0;
+    }
+
+    .variant {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .variant img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: transform 0.2s;
+    }
+
+    .variant img:hover {
+      transform: scale(1.2);
+      border-color: #333;
+    }
+
+    .description {
+      margin-top: 1rem;
+    }
+
+    .description h3 {
+      color: #2a9d8f;
+      margin-bottom: 0.5rem;
+    }
+
+    .add-to-cart {
+      display: block;
+      text-align: center;
+      background: #ff4d4d;
+      color: white;
+      font-size: 1.2rem;
+      padding: 0.8rem;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .add-to-cart:hover {
+      background: #e63946;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🍎 Grocery Store Apple Varieties</h1>
+</header>
+
+<main class="container">
+
+  <!-- Product Card -->
+  <section class="product__photo">
+    <div class="photo-container">
+      <div class="photo-main">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple">
+      </div>
+      <div class="photo-album">
+        <ul>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple"></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Honeycrisp-Apple.jpg" alt="Side View"></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Apple_pie.jpg" alt="Apple Dish"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="price">$7.93</div>
+
+    <div class="variant">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Green_Apple.jpg" alt="Green Apple">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Golden_delicious_apple.jpg" alt="Yellow Apple">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Orange_apple.jpg" alt="Orange Apple">
+    </div>
+
+    <div class="description">
+      <h3>BENEFITS</h3>
+      <ul>
+        <li>Rich in fiber for better digestion</li>
+        <li>Boosts immunity with Vitamin C</li>
+        <li>Supports heart health</li>
+        <li>Low in calories, perfect snack</li>
+      </ul>
+    </div>
+
+    <a href="#" class="add-to-cart">ADD TO CART</a>
+  </section>
+
+</main>
+
+</body>
+</html>
