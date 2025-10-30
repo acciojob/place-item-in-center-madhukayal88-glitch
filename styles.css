@@ -1,13 +1,18 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 .holder {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;                   /* Enable flexbox */
+    justify-content: center;         /* Center horizontally */
+    align-items: center;             /* Center vertically */
+    width: 100vw;                   /* Full viewport width */
+    height: 100vh;                  /* Full viewport height */
 }
 
 .item-1 {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+    width: 100px;                   /* Set width */
+    height: 100px;                  /* Set height */
+    background-color: red;          /* Set background color */
 }
