@@ -1,18 +1,13 @@
-html, body {
-    margin: 0;
-    height: 100%;
-}
-
 .holder {
-    display: flex;                   /* Enable flexbox */
-    justify-content: center;         /* Center horizontally */
-    align-items: center;             /* Center vertically */
-    width: 100vw;                   /* Full viewport width */
-    height: 100vh;                  /* Full viewport height */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
 }
 
 .item-1 {
-    width: 100px;                   /* Set width */
-    height: 100px;                  /* Set height */
-    background-color: red;          /* Set background color */
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }
