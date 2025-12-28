@@ -1,15 +1,15 @@
 /* 1. Holder: Must take full viewport and use Flexbox */
 .holder {
     display: flex;                /* Enables Flexbox layout */
-    justify-content: center;      /* Centers item horizontally */
-    align-items: center;          /* Centers item vertically */
+    justify-content: center;      /* Centers item-1 horizontally */
+    align-items: center;          /* Centers item-1 vertically */
     width: 100vw;                 /* Full viewport width */
     height: 100vh;                /* Full viewport height */
 }
 
 /* 2. Item-1: Specific dimensions and color */
 .item-1 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 100px;                 /* Width must be exactly 100px */
+    height: 100px;                /* Height must be exactly 100px */
+    background-color: red;        /* Red background color */
 }
